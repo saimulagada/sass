@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.fix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+@mixin one{
+	text-decoration:none;
+	padding:5px 14px;
+	border-radius:20px;
+	font-size:10px;
+	line-height:32px;
+	display:inline-block;
+}
